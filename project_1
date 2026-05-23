@@ -1,0 +1,21 @@
+print("Hello i am your AI chatbot.")
+
+name = input("What is your name?")
+print("Nice to meet you",name)
+feeling = input("How are you today: ")
+if feeling == "good":
+    print("That is great to hear")
+elif feeling == "bad":
+    print("I hope your day gets better soon")
+else:
+    print("Thanks for sharing your feelings")
+
+hobbies = input("What are your favourite sports: ")
+if hobbies =="football/rugby":
+    print("Wow those are my favourite too!")
+elif hobbies =="tennis/golf":
+    print("I like them too.")
+else:
+    print("That is a good sport")
+
+print("Have a good day!")
