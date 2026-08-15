@@ -1,0 +1,23 @@
+fruit1 = {"apple","banana","orange","mango"}
+fruit2 = {"banana","orange","dragonfruit","strawberry"}
+print(fruit1)
+print(fruit2)
+fruit1.add(kiwi)
+print(fruit1)
+commonfruits = fruit1.intersection(fruit2)
+print(commonfruits)
+import array as arr 
+fruit_counts = ('i',[3,2,5,4])
+print(fruit_counts)
+fruit_counts.insert(0,1)
+fruit_counts.append(6)
+print(fruit_counts)
+count4 = fruit_counts.count(4)
+print(count4)
+fruit_counts.reverse()
+print(fruit_counts)
+print("==== CLASS FRUIT BASKET ORGANISOR =====")
+print("basket 1:", fruit1)
+print("basket 2:", fruit2)
+print(commonfruits)
+print(fruit_counts)
